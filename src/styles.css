@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=B612+Mono:wght@400;700&display=swap");
+
+:root {
+  --font: "B612 Mono", monospace;
+}
+
+h1 {
+  color: white;
+  font-family: var(--font);
+  font-size: 72px;
+  font-weight: 700;
+  text-shadow: 2px 2px 3px grey;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 96px;
+  height: 64px;
+  background-color: #b4cc39;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-family: var(--font);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 16px;
+  text-shadow: 2px 2px 3px grey;
+  box-shadow: 2px 2px 3px grey;
+}
+
+.buttons button:hover {
+  background-color: #8fa32c;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: -2px -2px 3px grey;
+  transform: translate(2px, 2px);
+}
